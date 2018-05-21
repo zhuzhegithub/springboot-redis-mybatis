@@ -1,7 +1,7 @@
 # springboot-redis-mybatis
-###redis实现mybatis的二级缓存
+### redis实现mybatis的二级缓存
 #### springboot 2.0.1.RELEASE
-###关键点：
+### 关键点：
 
 1.自己实现的二级缓存，必须要有一个带id的构造函数，否则会报错。
 2.我们使用Spring封装的redisTemplate来操作Redis。
